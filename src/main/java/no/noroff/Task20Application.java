@@ -1,4 +1,4 @@
-package no.noroff.Task20;
+package no.noroff;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
