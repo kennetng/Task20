@@ -1,10 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Something</title>
-</head>
-<body>
-<h1>Hei</h1>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Task20</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <nav class="navbar navbar-light bg-blue">
+      <nav class="navbar navbar-expand-lg navbar-light bg-blue">
+        <a class="navbar-brand" href="#">Task20</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a id="link1" class="nav-link" href="/randomjoke">Joke</a>
+            </li>
+            <li class="nav-item">
+              <a id="link2" class="nav-link" href="/dadjoke">DadJoke</a>
+            </li>
+            <li class="nav-item">
+              <a id="link3" class="nav-link" href="/advice">Advice</a>
+            </li>
+            <li class="nav-item">
+              <a id="link4" class="nav-link" href="/quote">Quote</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </nav>
+    <div class="container">
+      <!--
+      <script>
+        function getJoke() {
+          var url = "http://localhost:8080/randomjoke";
+        }
+        function getDadJoke() {
+          var url = "http://localhost:8080/dadjoke";
+          fetch(url, {
+            method: "get"
+          })
+            .then(response => response.json())
+            .then(response => console.log("Success:", JSON.stringify(response)))
+            .catch(error => console.error("Error:", error));
+        }
+
+        function getAdvice() {
+          var url = "http://localhost:8080/advice";
+          alert("Advice");
+        }
+        function getQuote() {
+          var url = "http://localhost:8080/quote";
+          alert("Quote");
+        }
+      </script>-->
+    </div>
+  </body>
 </html>

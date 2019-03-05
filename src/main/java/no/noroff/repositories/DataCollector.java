@@ -15,9 +15,9 @@ import java.net.URLConnection;
 @Component
 public class DataCollector {
     public static String requestURL(String url){
-        URLConnection connection;
-        BufferedReader buffer;
-        StringBuilder stringBuilder = new StringBuilder();
+        final URLConnection connection;
+        final BufferedReader buffer;
+        final StringBuilder stringBuilder = new StringBuilder();
         try{
             connection = new URL(url).openConnection();
 
